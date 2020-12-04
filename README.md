@@ -16,7 +16,17 @@ Follow this link [https://ishubham21.github.io/javascript-projects/](https://ish
 
 The difficulty of the projects is between 'easy' to 'intermediate'.
 
+## What's in store for you?
+
+Matters. Right? 
+
+So, if your're a budding developer who's looking for projects to work upon, this can be a great help to you. You can just play around with the projects, understand their working and try making/re-developing them via your own approaches and algorithms. (Bonus - If you ever feel stuck, you can always look up the code and help yourself).
+
+If you aleardy have had some experience with the language and have some projects to contribute, you're most welcome. You can always submit a Pull Request (PR) and get them merged. 
+
+(P.S. If you happen to submit a project, all you need to do is make a folder of your project, number it correctly and add a link to your project in the index.html file. Cheers!)
+
 ## What's coming next?
 
-I'll be adding more projects equiped with AJAX and projects which make use of APIs to facilitate development and data transfer. 
+I'll be adding more projects equiped with AJAX and projects which make use of APIs to facilitate development and data transfer.
 

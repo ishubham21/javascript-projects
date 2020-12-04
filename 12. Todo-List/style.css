@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #ddd;
+}
+.container{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.form-cont{
+    width: 80%;
+}
+input, button, label{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+input{
+    margin-top: 20px;
+    padding: 15px;
+}
+label{
+    text-align: center;
+}
+button{
+    border-radius: 5px;
+    background: #fff;
+    cursor: pointer;
+    width: 10%;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #000;
+    transition: 0.3s;
+}
+button:hover{
+    background: #000;
+    color: #fff;
+}
+.item-cont{
+    margin-top: 50px;
+    width: 75%;
+}
+.item-cont ul{
+    display: none;
+    list-style-type: decimal;
+}
+.item-cont ul li{
+    padding: 15px;
+}
+.display-true{
+    display: block!important;
+}
+.striked{
+    text-decoration: line-through;
+    color: red;
+}
+.popup{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid #000;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.popup ul{
+    margin-top: 15px;
+    list-style-type: disc;
+}
+.popup button{
+    margin-top: 30px;
+}
+.display-0{
+    display: none;
+    pointer-events: none;
+}
+.make-opaque{
+    opacity: 0.2;
+    pointer-events: none;
+}
+.popup p{
+    text-align: center;
+    margin-top: 30px;
+}
+.popup p span{
+    font-weight: bold;
+}
+

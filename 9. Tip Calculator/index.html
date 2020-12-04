@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="opr-box">
+            <h1>Tip Calculator</h1>
+            <div class="err-box">
+                <h2>Error message will be displayed here</h2>
+            </div>
+            <form>
+                <label for="cost">Total Cost</label>
+                <input type="text" name="cost" id="cost">
+
+                <label for="service">Tell us about the service</label>
+                <select name="service" id="service">
+                    <option value="nil">Select</option>
+                    <option value="nice">Nice</option>
+                    <option value="satisfied">Satisfactory</option>
+                    <option value="poor">Can be improved</option>
+                </select>
+                <button type="submit">Calculate</button>
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>

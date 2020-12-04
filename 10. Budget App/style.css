@@ -1,0 +1,68 @@
+body{
+    overflow: hidden;
+    background: #ddf;
+}
+h1{
+    text-align: center;
+    font-size: 2.5em;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+.input-cont, .output-cont{
+    flex: 0 0 45%;
+    border: 1px solid #000;
+    padding: 30px;
+}
+.output-cont{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+}
+h2:nth-of-type(1){
+    color: green;
+}
+.exp h2:first-child{
+    color: #a12;
+}
+p{
+    font-size: 1.5em;
+}
+input, label{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+label{
+    font-size: 1.5em;
+}
+label:nth-child(2){
+    margin-top: 40px;
+}
+input{
+    font-size: 1em;
+    padding: 20px;
+    margin-top: 10px;
+}
+button{
+    font-size: 1em;
+    display: block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 0;
+    margin: 40px auto 0;
+    cursor: pointer;
+}
+.inc, .exp, .bal{
+    flex: 0 0 33%;
+}
+h3{
+    border: 1px solid #242424;
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    font-size: 1.5em;
+}

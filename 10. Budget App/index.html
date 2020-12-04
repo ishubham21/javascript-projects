@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Budget App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Budget App</h1>
+    <div class="container">
+        <div class="input-cont">
+            
+            <form>
+                <label>
+                    Income
+                    <input type="text" id="income" placeholder="Enter your income">
+                </label>
+                <label>
+                    Expense
+                    <input type="text" id="expense" placeholder="Enter expense">
+                </label>
+                
+                <button type="submit">Calculate</button>
+            </form>
+        </div>
+        <div class="output-cont">
+            <div class="inc">
+                <h2>Income</h2>
+                <p id="incOut">0</p>
+            </div>
+            <div class="exp">
+                <h2>Expenses</h2>
+                <p id="expOut">0</p>
+            </div>
+            <div class="bal">
+                <h2>Balance</h2>
+                <p id="balOut">0</p>
+            </div>
+            <div>
+               <h3>Your Final Balance is: $<span id="balBigOut">0</span></h3>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

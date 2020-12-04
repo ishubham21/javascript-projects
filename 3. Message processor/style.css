@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: #1af;
+}
+.container{
+    background-color: #fff;
+    padding: 3.5em;
+    border-radius: 10px;
+    box-shadow: 4px 4px 3px #333;
+}
+.container input{
+    font-family: monospace;
+    margin: auto;
+    width: 70%;
+    display: block;
+    padding: 0.8em;
+    font-size: 16px;
+    font-weight: 200;
+}
+.container button{
+    display: flex;
+    margin: 10px auto 0;
+    padding: 0.7em;
+    background-color: #1e73be;
+    border: 1px solid #000;
+    color: #fff;
+}

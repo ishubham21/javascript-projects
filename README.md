@@ -4,11 +4,11 @@ Right now, this repository contains 13 beginner-friendly projects. All of these 
 
 ## What's unique about this repository?
 
-Well, every project which you see above is hosted and can be visualised easily just by cilicking its respective link. Moreover, each folder conatins their own description file which states the things/technologies/tech-stack which I got to learn by developing them. 
+Well, every project which you see above is hosted online and can be visualised easily just by cilicking its respective link. Moreover, each folder conatins their own description file which states the things/technologies/tech-stack which I got to learn by developing them. 
 
 ## Difficulty
 
-The difficulty of the projects listed above is between 'easy' to 'intermediate'.
+The difficulty of the projects is between 'easy' to 'intermediate'.
 
 ## What's coming next?
 

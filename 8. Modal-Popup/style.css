@@ -1,0 +1,56 @@
+body{
+    overflow: hidden;
+    background-color: #232323;
+}
+.container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal{
+    background-color: #fff;
+    text-align: justify;
+    font-size: 20px;
+    padding: 40px;
+    display: none;
+    width: 50%;
+    position: fixed;
+    border: 1px solid black;
+    animation: slideDown 1s 0s ease;
+}
+.modal img {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: block;
+    max-width: 30px;
+}
+.modal img, button{
+    cursor: pointer;
+}
+.modal, button{
+    border-radius: 10px;
+}
+button{
+    font-size: 1.5em;
+    padding: 15px 30px;
+    background: #fff;
+    transition: 0.3s;
+}
+button:hover{
+    background: #232323;
+    color: #fff;
+    border: 1px solid #fff
+}
+.display-true{
+    display: block!important;
+}
+@keyframes slideDown{
+    0%{
+        transform: translateY(-350px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    transition: 0.4s;
+}
+button{
+    font-size: 1.4em;
+    padding: 10px 15px;
+    background: #fff;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+button:hover{
+    background: #000;
+    color: #fff;
+}
+.pinkColor{
+    background: pink;
+}

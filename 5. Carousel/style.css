@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    position: relative;
+    min-height: 100vh;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 60%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 10px solid #232323;
+}
+img{
+    min-height: 100%;
+    max-width: 100%;
+}
+button{
+    position: absolute;
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #444;
+    transition: 0.3s ease;
+    font-size: 2em;
+    font-weight: 600;
+}
+@media (max-width: 600px){
+    button{
+        font-size: 1.21em;
+    }
+}
+button:hover{
+    background: rgb(0, 0, 0);
+    color: #fff;
+}
+button#prev{
+    left: -25px;
+}
+button:nth-child(2){
+    right: -25px;
+}

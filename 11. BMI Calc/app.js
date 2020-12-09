@@ -1,27 +1,3 @@
-// // Your web app's Firebase configuration
-// var firebaseConfig = {
-//     apiKey: "AIzaSyCvIu3BgQdTJzk4XsUTaC_3btiMOd5L6zs",
-//     authDomain: "midnight-blog.firebaseapp.com",
-//     databaseURL: "https://midnight-blog.firebaseio.com",
-//     projectId: "midnight-blog",
-//     storageBucket: "midnight-blog.appspot.com",
-//     messagingSenderId: "1007800323341",
-//     appId: "1:1007800323341:web:8c3b1594fab111067db444"
-// };
-// // Initialize Firebase
-// firebase.initializeApp(firebaseConfig);
-// var blogRef = firebase.database().ref("Blogs/");
-
-// blogRef.on("child_added", function (data, prevChildKey) {
-//     var newBlog = data.val();
-//     console.log("email: " + newBlog.email);
-//     var para = document.createElement('p');
-//     para.classList.add('card');
-//     para.innerHTML = newBlog.para;
-//     var div = document.querySelector('#co');
-//     div.prepend(para);
-// })
-
 const form = document.querySelector('form');
 
 form.addEventListener('submit', calculate);    

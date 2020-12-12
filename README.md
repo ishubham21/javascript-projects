@@ -1,6 +1,6 @@
 ## About 'javascript-projects' repository
 
-Right now, this repository contains 15 beginner-friendly projects. All of these projects are developed without the use of any external framework. I've tried using the latest ES6 Javascript features while developing these projects.
+Right now, this repository contains 16 beginner-friendly projects. All of these projects are developed without the use of any external framework. I've tried using the latest ES6 Javascript features while developing these projects.
 Though the design-tech used for developing these projects makes it ready to be viewed in mobile phones, but it's highly suggested to use desktop computer for viewing purposes.
 ## What's unique about this repository?
 

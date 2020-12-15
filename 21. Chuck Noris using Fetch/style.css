@@ -1,0 +1,27 @@
+.container {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .sub {
+  padding: 20px;
+  width: 50%;
+  border-radius: 15px;
+  border: 1px solid #222;
+}
+
+.container .sub button {
+  display: block;
+  margin: 15px auto;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

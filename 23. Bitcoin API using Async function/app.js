@@ -1,8 +1,12 @@
 //fairly small piece of code
 const btcPrice = async () => {
-    const price = await fetch('https://api.cryptonator.com/api/ticker/btc-usd')
-    const data = await price.json()
-    printPrice(data.ticker.price)
+    try {
+        const price = await fetch('https://api.cryptonator.com/api/ticker/btc-usd')
+        const data = await price.json()
+        printPrice(data.ticker.price)
+    } catch (error) {
+        console.log('Something is not right', e);
+    }
 }
 
 function printPrice(price) {

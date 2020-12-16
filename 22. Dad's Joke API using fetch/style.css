@@ -1,0 +1,31 @@
+body {
+  overflow: hidden;
+}
+
+body .container {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container .sub {
+  width: 30%;
+  border-radius: 20px;
+  padding: 20px;
+  border: 1px solid #222;
+}
+
+body .container .sub button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

@@ -6,6 +6,7 @@ else{
 }
 
 function getCoordinates(position){
+    console.log(position);
     getCity(position.coords.latitude, position.coords.longitude)
 }
 

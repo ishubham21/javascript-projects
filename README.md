@@ -4,6 +4,7 @@ Though the design-tech used for developing these projects makes it ready to be v
 
 ## Project Description
 1. What's unique about this repository?
+
 Well, every project which you see above is hosted online and can be visualised easily just by clicking its respective link. Moreover, each folder contains their own description file which states the things/technologies/tech-stack which I got to learn by developing them. 
 
 2. How to access hosted projects?
